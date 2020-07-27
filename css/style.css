@@ -1,0 +1,146 @@
+body {
+  margin-top: 73px; }
+
+.navbar {
+  box-shadow: 0px 2px 4px #D80032;
+  opacity: 0.8;
+  background-color: #4A6670; }
+  .navbar .brand-text {
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #FEFDFF; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    font-weight: 400; }
+    .navbar .nav-item .nav-link {
+      color: #FEFDFF;
+      transition-duration: 0.3s; }
+    .navbar .nav-item .nav-link:hover {
+      color: #D80032; }
+
+.btn-blog {
+  border: 2px solid transparent; }
+
+.btn-blog:hover {
+  background: #4A6670;
+  border: 2px solid #D80032;
+  color: #D80032 !important; }
+
+#showcase {
+  position: relative;
+  background: url(../img/computer.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background-color: rgba(216, 0, 50, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#newsletter .fas {
+  margin-right: 5px; }
+
+#blog {
+  position: relative;
+  background-color: #4A6670; }
+  #blog .blog-img {
+    width: auto;
+    height: 300px; }
+  #blog .card {
+    border: 2px solid #D80032;
+    box-shadow: 2px 2px 5px #D80032; }
+    #blog .card .card-header {
+      font-weight: 600; }
+    #blog .card .card-footer a {
+      color: #FEFDFF; }
+    #blog .card .fas {
+      margin-left: 5px; }
+  #blog .card:hover {
+    border: 2px solid transparent;
+    box-shadow: none;
+    background: rgba(216, 0, 50, 0.5);
+    color: #FEFDFF; }
+
+#resume .logo {
+  padding: 15px 10px 10px 10px;
+  display: block;
+  text-align: center; }
+  #resume .logo img {
+    width: 50%;
+    margin: auto;
+    min-height: 55px; }
+#resume .card-body, #resume .card-footer {
+  background-color: #4A6670;
+  color: #FEFDFF; }
+#resume .card-header:hover {
+  cursor: pointer; }
+
+#portfolio {
+  background-color: #4A6670; }
+  #portfolio .img-portfolio {
+    width: 560px;
+    height: 250px;
+    overflow: hidden; }
+
+.main-text {
+  color: #FEFDFF;
+  font-size: 1.4rem; }
+
+.subtitle {
+  color: #D80032;
+  font-size: 1rem;
+  font-weight: bold; }
+
+#about-me .img-about {
+  width: 95%;
+  height: auto;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #D80032; }
+#about-me .fas {
+  margin-right: 5px; }
+
+#contact {
+  background-color: #4A6670; }
+  #contact .contact-info {
+    border-left: 2px solid #D80032;
+    padding-left: 40px; }
+  #contact .fas {
+    color: #D80032; }
+
+footer .fab {
+  color: #FEFDFF;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px; }
+footer .nav-item {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  font-weight: 400; }
+  footer .nav-item .nav-link {
+    color: #FEFDFF;
+    transition-duration: 0.3s; }
+  footer .nav-item .nav-link:hover {
+    color: #4A6670; }
+
+@media (max-width: 768px) {
+  .my-res {
+    margin-top: 30px;
+    margin-bottom: 10px; }
+
+  .contact-info {
+    border-left: hidden; }
+
+  footer img {
+    width: 50%; }
+  footer navbar-nav {
+    text-align: left; } }
+
+/*# sourceMappingURL=style.css.map */
